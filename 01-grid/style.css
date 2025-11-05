@@ -23,13 +23,13 @@ body {
 .container {
 	width: 100%;
 	min-height: 100dvh;
-	/* display: grid; */
-	/* grid-template-rows: auto 1fr auto; */
-	/* grid-template-columns: 30ch 1fr; */
-	/* grid-template-areas:
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 30ch 1fr;
+	grid-template-areas:
 		"header header"
 		"main main"
-		"footer footer"; */
+		"footer footer";
 }
 
 section {
@@ -37,7 +37,7 @@ section {
 }
 
 .story {
-	display: none;
+	/* display: none; */
 }
 
 header {
