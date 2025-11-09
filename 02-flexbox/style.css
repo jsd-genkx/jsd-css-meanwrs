@@ -25,21 +25,22 @@ body {
 	background-color: var(--color-accent);
 	width: 100%;
 	min-height: 100dvh;
+	outline: solid 5px var(--color-accent);
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
+	gap: 1rem;
+	justify-content: center;
+	align-items:center;
 	/* align-content: center; */
 	/* flex-wrap: wrap; */
 
-	/* flex-direction: column; */
+	flex-direction: row;
 	/* height: 90vh; */
 }
 
 .box {
 	width: 200px;
-	aspect-ratio: 1;
+	/* aspect-ratio: 1; */
 	font-size: 2rem;
 	background-color: var(--color-primary);
 	color: var(--color-white);
@@ -52,6 +53,6 @@ body {
 	/* flex:1; */
 }
 
-/* .box3 {
+.box3, .box4 {
 	flex:555;
-} */
+}
